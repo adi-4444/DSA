@@ -1,0 +1,20 @@
+// reversing a string
+
+function reverseString(str) {
+  
+    let newStr = "";
+   for (let i=str.length-1; i>=0; i--) {
+      newStr += str[i];
+   } return newStr
+}
+
+let output = reverseString("Relevel")
+console.log(output)
+
+
+
+let input= "race"           // easy way to reverse a string
+let revstr = "";
+for (let i = input.length - 1; i >= 0; i--) { 
+     revstr += input[i];
+    }console.log(revstr)
