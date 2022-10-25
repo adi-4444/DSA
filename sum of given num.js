@@ -10,5 +10,5 @@ while (num > 0) {
 }
 
 
-let output = sumOfDigits(255)
+let output = sumOfDigits(5431)
 console.log(output)
