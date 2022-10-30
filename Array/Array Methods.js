@@ -3,6 +3,10 @@
 let a = [1,2,3,4,5,6]
 
 a.forEach((number,index) => console.log(number*2,index)) 
+
+a.forEach((number) => number*2) 
+console.log(a) // forEach method don't return anything and won't change original array
+
 // array a values are assigned to number        // in Index array index values are stored
 
 // Map is used to loop the array and return the array but not modifies the current array
@@ -10,7 +14,11 @@ a.forEach((number,index) => console.log(number*2,index))
 let newA = a.map(num => {   // transforms the array
    return num * 2         // num.toString(2) used to make binary
 })
-console.log(newA)
+console.log(newA) // Map also doesn't change original array but its returns new modified array
+
+
+
+
 
 // Filter is used to filter the array and return the value
 
