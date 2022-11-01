@@ -17,9 +17,6 @@ let newA = a.map(num => {   // transforms the array
 console.log(newA) // Map also doesn't change original array but its returns new modified array
 
 
-
-
-
 // Filter is used to filter the array and return the value
 
 let newB = a.filter(num => {
@@ -69,3 +66,15 @@ console.log(upperCaseNames)
 let names2 = [ "APPLE","RELEVEL","MICROSOFT","DEVELOPER" ]
 let lowerCaseNames = names.map((name)=>name.toLowerCase())
 console.log(lowerCaseNames)
+
+
+// difference between in and of 
+let list = [4, 5, 6];
+
+for (let i in list) {
+   console.log(i); // "0", "1", "2",
+}
+
+for (let i of list) {
+   console.log(i); // "4", "5", "6"
+}
